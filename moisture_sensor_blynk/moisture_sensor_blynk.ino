@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL35WqK7b-2"
-#define BLYNK_TEMPLATE_NAME "soilmoisture"
-#define BLYNK_AUTH_TOKEN "_Dc8Y5MGHBEZFUp9A1b4MofKsXmReYoN"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h> 
@@ -16,8 +16,8 @@ dht DHT;
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "dev";  // type your wifi name
-char pass[] = "12345678";  // type your wifi password
+char ssid[] = "";  // type your wifi name
+char pass[] = "";  // type your wifi password
 
 BlynkTimer timer;
 
